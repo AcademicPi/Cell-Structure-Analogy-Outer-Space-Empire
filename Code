@@ -19,7 +19,7 @@
   </div>
     <!-- Tabs -->
     <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-      <a href="#fixed-tab-1" class="mdl-layout__tab is-active"> Main Program 1</a>
+      <a href="#fixed-tab-1" class="mdl-layout__tab is-active"> Main Program</a>
       <a href="#fixed-tab-2" class="mdl-layout__tab"> Booklet</a>
       <a href="#fixed-tab-3" class="mdl-layout__tab"> Credits</a>
     </div>
@@ -28,14 +28,20 @@
     <span class="mdl-layout-title">By Allison Dick</span>
   </div>
   <main class="mdl-layout__content">
-    <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
-      <div class="page-content"><!-- Your content goes here --></div>
+    <section class="mdl-layout__tab-panel is-active" id="#fixed-tab-1">
+      <div class="page-content">
+      <p> This is the first sentence... </p>
+      </div>
     </section>
-    <section class="mdl-layout__tab-panel" id="fixed-tab-2">
-      <div class="page-content"><!-- Your content goes here --></div>
+    <section class="mdl-layout__tab-panel" id="#fixed-tab-2">
+      <div class="page-content">
+      <p> This is also a sentence. </p>
+      </div>
     </section>
-    <section class="mdl-layout__tab-panel" id="fixed-tab-3">
-      <div class="page-content"><!-- Your content goes here --></div>
+    <section class="mdl-layout__tab-panel" id="#fixed-tab-3">
+      <div class="page-content">
+      <p> Another sentence... the third one, to be precise.</p>
+      </div>
     </section>
   </main>
 </div>

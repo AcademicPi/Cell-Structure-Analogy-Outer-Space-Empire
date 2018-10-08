@@ -19,9 +19,9 @@
   </div>
     <!-- Tabs -->
     <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-      <a href="main-program" class="mdl-layout__tab is-active"> Main Program</a>
-      <a href="booklet" class="mdl-layout__tab"> Booklet</a>
-      <a href="credits" class="mdl-layout__tab"> Credits</a>
+      <a href="#main-program" class="mdl-layout__tab is-active"> Main Program</a>
+      <a href="#booklet" class="mdl-layout__tab"> Booklet</a>
+      <a href="#credits" class="mdl-layout__tab"> Credits</a>
     </div>
   </header>
   <div class="mdl-layout__drawer">

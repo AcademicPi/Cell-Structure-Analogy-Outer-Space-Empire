@@ -20,15 +20,12 @@
         
         // ProgramCodeGoesHere
 	background(50, 50, 50);
-        fill(255, 255, 0);
-        ellipse(200, 200, 200, 200);
-        noFill();
-        stroke(0, 0, 0);
-        strokeWeight(2);
-        arc(200, 200, 150, 100, 0, PI);
-        fill(0, 0, 0);
-        ellipse(250, 200, 10, 10);
-        ellipse(153, 200, 10, 10);
+	PImage space;
+
+  space = loadImage("externalfile:drive-98ef7a45f2fcd12854fc80b82a1588de2774b703/root/Cell%20Structure%20Analogy%20Project/Space.png");
+
+  image(space, 0, 0, 500, 500);
+
     }};
 
     // Get the canvas that Processing-js will use

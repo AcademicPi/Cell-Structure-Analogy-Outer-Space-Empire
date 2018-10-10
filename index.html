@@ -22,12 +22,15 @@
 	
 	background(50, 50, 50);
 	
-	noStroke();
-	fill(255, 125, 0);
-	rect(50, 50, 50, 50);
-    }};
+	/* @pjs preload="laDefense.jpg"; */
 
-    // Get the canvas that Processing-js will use
+    	PImage space;
+
+    	space = loadImage("Space.png");
+
+    	image(space, 0, 0);
+
+        // Get the canvas that Processing-js will use
     var canvas = document.getElementById("mycanvas"); 
     // Pass the function sketchProc (defined in myCode.js) to Processing's constructor.
     var processingInstance = new Processing(canvas, sketchProc); 

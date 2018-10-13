@@ -10,33 +10,8 @@
 	 <!-- Run all the JavaScript stuff -->
  <!-- Include the processing.js library -->
  <!-- See https://khanacademy.zendesk.com/hc/en-us/articles/202260404-What-parts-of-ProcessingJS-does-Khan-Academy-support- for differences -->
- <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script> 
+ <script src="processing-1.4.8.min.js"></script> 
  
- <script>
-    var sketchProc = function(processingInstance) {
-     with (processingInstance) {
-        size(1000, 1000); 
-        frameRate(30);
-        
-	background(50, 50, 50);
-	
-	fill(255, 125, 0);
-	noStroke();
-	ellipse(975, 975, 50, 50);
-	     
-	image(loadImage("Testing.jpeg"), 100, 100, 500, 500);
-	     
-	fill(0, 120, 255);
-	rect(350, 0, 50, 50);
-	
-     }};
-    
-	 // Get the canvas that Processing-js will use
-    var canvas = document.getElementById("mycanvas"); 
-    // Pass the function sketchProc (defined in myCode.js) to Processing's constructor.
-    var processingInstance = new Processing(canvas, sketchProc); 
- </script>
-
 </head>
 <body>
   <!-- Simple header with fixed tabs. -->
@@ -59,11 +34,8 @@
   <main class="mdl-layout__content">
     <section class="mdl-layout__tab-panel is-active" id="main-program">
       <div class="page-content">
-      <p style= "padding: 32px"> Created by AcademicPi <br> Life Science Class <br> Outer Space ProcessingJS Program <br> 20% Deduction for Lateness</p>
-      <p align="center"> 
-	<!--This draws the Canvas on the webpage -->
-      <canvas id="mycanvas"></canvas> 
-    </p>
+      <p style= "padding: 32px"> Created by AcademicPi <br> Life Science Class <br> Outer Space ProcessingJS Program</p>
+      <canvas data-processing-sources="code.pde"></canvas>
       </div>
     </section>
     <section class="mdl-layout__tab-panel" id="booklet">

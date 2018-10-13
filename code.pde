@@ -1,4 +1,5 @@
 void setup() {
+	size(400,400);
 	var circleColor = color(255,255,0);
 	var backgroundColor = color(50, 50, 50);
 

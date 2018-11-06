@@ -1,50 +1,51 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<script src="processing-1.4.8.min.js"></script>
-  <title>Plant Cell Analogy— Outer Space Empire</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.light_blue-deep_purple.min.css">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
-  <link href="css-sprite/sprite-av-black.css" rel="stylesheet"> 
-</head>
-<body>
-  <!-- Simple header with fixed tabs. -->
-  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs">
-    <header class="mdl-layout__header">
-      <div class="mdl-layout__header-row">
+	<head>
+		<title>Cell Analogy Project</title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+		<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+		
+	</head>
+	<body>
+		<!-- Uses a transparent header that draws on top of the layout's background -->
+		<style>
+			.demo-layout-transparent {
+		  background: url('Light-Energy-Spacecraft.png') center / cover;
+			}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  color: white;
+}
+</style>
+
+<div class="demo-layout-transparent mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header mdl-layout__header--transparent">
+    <div class="mdl-layout__header-row">
       <!-- Title -->
-    <span class="mdl-layout-title">Plant Cell— Outer Space Empire Analogy</span>
-  </div>
-    <!-- Tabs -->
-    <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-      <a href="#main-program" class="mdl-layout__tab is-active"> Main Program</a>
-      <a href="#booklet" class="mdl-layout__tab"> Booklet</a>
-      <a href="#credits" class="mdl-layout__tab"> Credits</a>
+      <span class="mdl-layout-title">Plant Cell as Outer Space Empire</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation -->
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+      </nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">HOME</span>
+    <span class="mdl-layout-title">Title</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+    </nav>
   </div>
   <main class="mdl-layout__content">
-    <section class="mdl-layout__tab-panel is-active" id="main-program">
-      <div class="page-content">
-      <p style= "padding: 32px"> Created by AcademicPi <br> Life Science Class <br> Outer Space ProcessingJS Program</p>
-      <canvas data-processing-sources="code.pde"></canvas>
-      </div>
-    </section>
-    <section class="mdl-layout__tab-panel" id="booklet">
-      <div class="page-content">
-      <p> This is also a sentence. </p>
-      </div>
-    </section>
-    <section class="mdl-layout__tab-panel" id="credits">
-      <div class="page-content">
-      <p> Another sentence... the third one, to be precise.</p>
-      </div>
-    </section>
   </main>
 </div>
-</body>
-   
+	</body>
 </html>

@@ -1,4 +1,8 @@
-PImage b;
-b = loadImage("Light-Energy-Spacecraft.png");
+/* @pjs preload="Light-Energy-Spacecraft.png"; */
+PImage img;
 
-image(b, 0, 0);
+void setup() {
+	size(500, 500)
+	img = loadImage("Light-Energy-Spacecraft.png");
+	image(img, 0, 0);
+}
